@@ -19,3 +19,16 @@ print(text[:2])
 
 # prints string starting from index 2 onwards
 print(text[2:])
+
+
+num1 = 3
+num2 = 5
+print(num1, num2)
+print(type(num1), type(num2))
+
+
+print(num1-num2)
+print(num1*num2)
+print(num2 / num1)   # division sometimes may result in float
+print(num2 // num1)  # this is called floor division i.e. the output is quotient without reminder
+print(num2 % num1)   # this is called modulus i.e. the reminder after division
