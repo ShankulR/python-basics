@@ -1,0 +1,21 @@
+test = 'Apple\'s products are beautiful' 
+print(test)
+
+text = "Hello World"
+print(len(text))
+
+text = "Hello Planet"
+print(text[0])
+print(text[4])
+
+
+text = "Welcome to Python!"
+
+# prints string from index 2 upto 5 (i.e. from 3rd letter to 6th letter)
+print(text[2:5])
+
+# prints string upto index 2 (i.e. print index 0 and index 1 (first and second letter))
+print(text[:2])
+
+# prints string starting from index 2 onwards
+print(text[2:])
